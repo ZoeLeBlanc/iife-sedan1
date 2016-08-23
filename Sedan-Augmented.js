@@ -11,7 +11,7 @@ var Sedan = (function(newSedan) {
 		} else {
 			throw "Cannot" + max_occupancy;
 		}
-	}
+	};
 	return newSedan;
 
 })(Sedan || {});
